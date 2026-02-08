@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package recommendationService;
+
+option go_package = "github.com/L1irik259/contracts/genetation/go/ml/v1;mlv1";
+
+service RecommendationService {
+    rpc GetRecommendations(RecommendationsRequest) returns (RecommendationsResponse);
+}
+
+message RecommendationsRequest{
+    string user_id = 1;
+    repeated ServeyReting servey_reting = 2;
+}
+
+message ServeyReting {
+    int32 movie_id = 1;
+    optional int32 rating = 2;
+    bool flag_watched = 3;
+}
+
+message RecommendationsResponse {
+    string user_id = 1;
+    repeated int32 arr_movie_id = 2;
+}
