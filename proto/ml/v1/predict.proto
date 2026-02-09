@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package recommendationService;
 
-option go_package = "github.com/L1irik259/contracts/genetation/go/ml/v1;mlv1";
+option go_package = "github.com/L1irik259/contracts/genetation/go/v1;mlv1";
 
 service RecommendationService {
     rpc GetRecommendations(RecommendationsRequest) returns (RecommendationsResponse);

@@ -203,7 +203,7 @@ const file_ml_v1_predict_proto_rawDesc = "" +
 	"\farr_movie_id\x18\x02 \x03(\x05R\n" +
 	"arrMovieId2\x8c\x01\n" +
 	"\x15RecommendationService\x12s\n" +
-	"\x12GetRecommendations\x12-.recommendationService.RecommendationsRequest\x1a..recommendationService.RecommendationsResponseB9Z7github.com/L1irik259/contracts/genetation/go/ml/v1;mlv1b\x06proto3"
+	"\x12GetRecommendations\x12-.recommendationService.RecommendationsRequest\x1a..recommendationService.RecommendationsResponseB6Z4github.com/L1irik259/contracts/genetation/go/v1;mlv1b\x06proto3"
 
 var (
 	file_ml_v1_predict_proto_rawDescOnce sync.Once
